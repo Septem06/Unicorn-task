@@ -16,13 +16,16 @@ def instructions():
     print ()
     print ("The rules of the game will go here")
     print()
-    print ("Program continues"')')
-    print()
 
 
-played_before = yes_no("have you played this game before? ")
 
-if played_before == "no":
-    instructions()
-else:
-    print("program continues")
+
+    played_before = yes_no("have you played this game before? ")
+
+    if played_before == "no":
+        instructions()
+
+
+
+user_balance = num_check("how much money would you like to play with? $", 1, 10)
+print(f"you are playing with ${user_balance}")
