@@ -4,7 +4,7 @@ def yes_no(question_text):
         if answer == "yes" or answer == "y":
             answer = "Yes"
             return answer
-        elif answer== "no" or answer == "n":
+        elif answer == "no" or answer == "n":
             answer = "No"
             return answer
         else:
@@ -13,10 +13,10 @@ def yes_no(question_text):
 
 def instructions():
     print(" How to Play *")
-    print ()
-    print ("The rules of the game will go here")
     print()
-    print ("Program continues"')')
+    print("The rules of the game will go here")
+    print()
+    print("Program continues"')')
     print()
 
 
